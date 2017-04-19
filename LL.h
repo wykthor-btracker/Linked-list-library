@@ -2,8 +2,8 @@
 #define LL_H
 #endif
 
-typedef struct list list;
-typedef struct list *node;
+typedef struct list list; //These typedefs are used in conjunction because the former is used for the mallocs to initialize the pointer
+typedef struct list *node;//And the latter is used to reference the struct itself, and using it as a pointer makes it easier to pass the references for a certain element and such.
 
 struct list
 {
