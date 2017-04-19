@@ -18,11 +18,11 @@ stdlib and stdio, so it *should* work fine.
 
 Clone the repository.
 
-```
+```bash
 git clone https://github.com/wykthor-btracker/Linked-list-implementation.git
 ```
 Before including the header, generate a new object file, by running:
-```
+```bash
 gcc -c LL.c -o LL.o
 ```
 
@@ -32,7 +32,7 @@ Then on the created repository, on the file you wish to use the library, include
 #include "LL.h"
 ```
 Final step, compile your file, including the created object file.
-```
+```bash
 gcc App.c -o App LL.o
 ```
 That's it! If all went well, you should be able to use the data structures and functions defined.
