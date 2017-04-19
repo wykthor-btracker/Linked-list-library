@@ -43,6 +43,21 @@ printf("%d",first->cont);
 new(first,2);
 ...
 ```
+## Structures introduced
+There are only two structures introduced with this library, list and node.
+List is the basic structure for the list elements, whilst node is a pointer 
+to said structure, using the pointer makes it easier to pass the structure by reference, thus allowing for read and write access to the structure.
+```C
+...
+struct list
+{
+	int cont;   //The content of the element.
+	node next;  //pointers defined to lead to the next and 
+	node prev;  //previous elements on the list.
+	int ordered;//Custom flag used to signal if the list is ordered from
+};              //This element and onwards.
+...
+```
 ## Makefile
 If you wish, there is a makefile included on the repository, it is fixed to generate a App.c file, but you can change that to your program's name.
 On line 27 of the makefile:
