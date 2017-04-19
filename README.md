@@ -28,7 +28,7 @@ gcc -c LL.c -o LL.o
 
 Then on the created repository, on the file you wish to use the library, include the header LL.h file.
 
-```
+```C
 #include "LL.h"
 ```
 Final step, compile your file, including the created object file.
@@ -36,7 +36,7 @@ Final step, compile your file, including the created object file.
 gcc App.c -o App LL.o
 ```
 That's it! If all went well, you should be able to use the data structures and functions defined.
-```
+```C
 ...
 node first = init(1);
 printf("%d",first->cont);
