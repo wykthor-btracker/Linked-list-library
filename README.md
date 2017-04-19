@@ -14,7 +14,6 @@ This library works with vanilla C, version 4.8.4 tested.
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
 
 Clone the repository.
 
