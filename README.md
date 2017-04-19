@@ -26,7 +26,7 @@ Before including the header, generate a new object file, by running:
 gcc -c LL.c -o LL.o
 ```
 
-Then on the created repository, include the header LL.h file.
+Then on the created repository,on the file you wish to use the library, include the header LL.h file.
 
 ```
 #include "LL.h"
