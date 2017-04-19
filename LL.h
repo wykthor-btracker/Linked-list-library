@@ -16,6 +16,7 @@ struct list
 /*
  * --------------------------
  * This is an attempt to create a linked list library.
+ * The linked list here implemented stores intengers at the elements.
  * Probably some of the ways i use to traverse/sort/search the list aren't exceptionally efficient.
  * Use with care, i did my best to prevent dangling pointers and memory loss due to misallocation/misplaced free() calls.
  * It works well with under 200.000 elements, after that, you'll need to increase maximum main thread stacksize.
