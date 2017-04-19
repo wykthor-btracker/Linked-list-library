@@ -5,7 +5,7 @@ Library.
 
 ## Getting Started
 
-Clone the repository on your machine, to use this header you will need to compile the object and include it on your project's folder.
+Clone the repository, to use this header you will need to compile the object and include it on your project's folder.
 
 ### Prerequisites
 
@@ -43,6 +43,9 @@ new(first,2);
 
 Quicksort function takes in an node for a not-ordered list and orders it.
 There is a function called initList(), which is used to read input from a file, and populate a list with the contents. The contents should be a continuous set of intengers.
+
+## Functions descriptions:
+Inside the LL.h file, the function prototypes also contain a brief explanation of what and how each function works.
 
 ## Authors
 
