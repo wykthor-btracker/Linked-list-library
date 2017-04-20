@@ -71,7 +71,7 @@ Quicksort function takes in an node for a not-ordered list and orders it.
 There is a function called initList(), which is used to read input from a file, and populate a list with the contents. The contents should be a continuous set of intengers.
 
 ## Functions descriptions:
-Inside the LL.h file, the function prototypes also contain a brief explanation of what and how each function works.
+For further explanation of the functions defined, go [here](https://github.com/wykthor-btracker/Linked-list-library/wiki)
 
 ## Authors
 
