@@ -179,6 +179,7 @@ void removeCell(node cell)
 		cell->next->prev = cell->prev;
 		cell->prev->next = cell->next;
 		free(cell);
+		cell = NULL;
 	}
 }
 
