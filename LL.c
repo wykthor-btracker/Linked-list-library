@@ -51,6 +51,17 @@ node initList(int size)
 	fclose(fr);
 	return first;
 }
+
+void iterCall(node cell,void (*func)(node))
+{
+	if(cell == NULL) return;
+	else
+	{
+		func(cell);
+		iterCall(cell->next,func);
+	}
+}
+
 void iterAddr(node cell)
 {
 	printf("%p ",cell);

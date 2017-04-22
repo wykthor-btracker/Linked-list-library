@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "LL.h"
-
-int main(int argc, char **argv)
+int main()
 {
-	return 0;
+    return 0;
 }
