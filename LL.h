@@ -33,6 +33,9 @@ node init(int);
 //Initializes a head for a list, inserting the value passed as argument on the content field.
 node initList(int);
 //Somewhat specific function to read a input file and generate a list of not-necessarily ordered elements.
+void iterCall(node cell,void (*func)(node));
+//Receives a function pointer and a node as arguments, iterates through the list from starting point to end,
+//Calls given function at each element of the list it passes through.
 void iterAddr(node);
 //Iterates through a Linked list, but prints out the address of the element, instead of the content.
 void iter(node);
