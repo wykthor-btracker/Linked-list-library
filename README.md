@@ -68,7 +68,7 @@ After setting the appropriate name, running Make should compile the library, and
 ## Quicksort function usage.
 
 Quicksort function takes in an node for a not-ordered list and orders it.
-There is a function called initList(), which is used to read input from a file, and populate a list with the contents. The contents should be a continuous set of intengers.
+There is a function called initList(), which is used to read input from a file, and populate a list with the contents. The contents should be a set of intengers.
 
 ## Functions descriptions:
 For further explanation of the functions defined, go [here](https://github.com/wykthor-btracker/Linked-list-library/wiki)
